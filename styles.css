@@ -1,0 +1,54 @@
+.reset {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.reset button {
+  margin-right: 20px;
+  padding: 10px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.reset button:hover { background: lightgray; }
+.reset label { font-size: 20px; }
+
+.reset input {
+  width: 50px;
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.rainbow {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  background: white;
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.active {
+  background: linear-gradient(violet, indigo, blue, green, orange, red);
+  color: white;
+}
+
+.container {
+  width: 700px;
+  height: 700px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.square {
+  float: left;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
